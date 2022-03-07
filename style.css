@@ -110,16 +110,25 @@ a:link {
     line-height: 10px;
     }
 
-.contacts-search {
-    background-color: rgb(214, 214, 214);
-    height: 40px;
-    align-items: center;
-}
-.contacts-search i {
-    position: absolute;
-    padding: 10px 0 10px 20px;
 
-}
+    .contacts-search {
+        width: 100%;
+        border-bottom: 1px solid var(--border-color);
+        padding: 5px 0px;
+        background-color: beige;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contacts-search input {
+        padding: 15px;
+        width: 85%;
+        padding-left: 20px;
+        background-color: rgb(255, 251, 245);
+        border: 0.5px solid grey;
+        font-family: 'Roboto', sans-serif;
+    }
 
 .contacts-search .search {
     margin: 10px;
